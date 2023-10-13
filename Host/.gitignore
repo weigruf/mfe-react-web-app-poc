@@ -1,0 +1,61 @@
+# Application dependencies
+node_modules
+npm-debug.log
+
+# What is this for?
+config/http.dev*
+
+#Cypress
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
+cypress.env.json
+
+# Build files
+www/console.ometria.com/dist/
+
+# Mac files
+.DS_Store
+
+# IDE files
+default.sublime-*
+.tern-project
+.tern-port
+.idea/
+*.iml
+
+# Test files
+errorShots/
+coverage
+
+# Storybook
+storybook-static/
+
+*.swp
+
+version.txt
+
+.env
+
+# pytest things for the jinja tests on tools/
+.pytest_cache/
+__pycache__/
+
+# Ctags
+tags
+
+### Helm ###
+# Chart dependencies
+**/charts/*.tgz
+Chart.lock
+
+# Terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfs*
+
+#vscode
+.vscode/
+
+.scannerwork
