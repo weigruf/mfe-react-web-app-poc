@@ -16,7 +16,7 @@ And in another terminal:
 
 Navigate to the host Home App: http://localhost:3009.
 
-on another browser tab, navigate to the remote App: http://localhost:3008.
+On another browser tab, navigate to the remote App: http://localhost:3008.
 
 ## Useful commands
 
