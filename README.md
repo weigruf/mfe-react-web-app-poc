@@ -1,6 +1,10 @@
 # Microfrontends with Module federation (Webpack 5+)
 
-- Run both apps, host and remote.
+Install dependencies in both apps, host and remote.
+
+- `npm i`
+
+Run both apps.
 
 Host in one terminal:
 
@@ -10,7 +14,9 @@ And in another terminal:
 
 - `cd Remote && npm run dev`
 
-Navigate to Home App: http://localhost:3009.
+Navigate to the host Home App: http://localhost:3009.
+
+on another browser tab, navigate to the remote App: http://localhost:3008.
 
 ## Useful commands
 
