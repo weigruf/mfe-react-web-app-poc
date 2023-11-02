@@ -22,7 +22,7 @@ function HomeApp() {
         consume the Remote(s) web app(s) served via Webpack Module Federation!
       </h1>
       <Suspense fallback={<div>Loading Header...</div>}>
-        <Header />
+        <Header data={{ id: "theIdFromTheHost" }} />
       </Suspense>
     </div>
   );
